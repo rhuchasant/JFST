@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+    h2 {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    
+    
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h2>Welcome to the Student Registration Desk!</h2>
+
+    <div class="gif-container">
+        <img src="https://68.media.tumblr.com/7e8880e9bd36be861749fda3c9d41385/tumblr_ojrbgrbE9t1r5yhuio1_r1_400.gif" alt="Animated GIF">
+       
+    
+    </div>
+    
+    
+    <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name"><br><br>
+
+        <label>Gender:</label>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label>
+        <input type="radio" id="other" name="gender" value="other">
+        <label for="other">Other</label><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email"><br><br>
+
+        <label for="dob">DOB:</label>
+        <input type="date" id="dob" name="dob"><br><br>
+
+        <label for="dept">Department:</label>
+            <select id="dept" name="dept">
+            <option value="male">Comp</option>
+            <option value="female">EnTC</option>
+            <option value="other">IT</option>
+            </select><br><br>
+
+
+        <label for="cgpa">CGPA:</label>
+        <input type="number" id="cgpa" name="cgpa"><br><br>
+
+        <input type="submit" value="Submit">
+        
+
+        
+
+      </form>
+      
+</body>
+</html>

@@ -1,0 +1,22 @@
+body {
+    /* background-color: #DCD0FF;  */
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  
+  
+
+    
+    background: #e6d7ff;
+    animation: mymove 5s infinite;
+}
+  
+  @keyframes mymove {
+    from {background-color: #e6d7ff;}
+    to {background-color: #BF40BF;}
+  }   
+
+  .gif-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
